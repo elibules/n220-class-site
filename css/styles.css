@@ -1,0 +1,66 @@
+@import url("https://use.typekit.net/hkh4mcd.css");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+nav {
+  height: 5%;
+  width: 95%;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  padding-top: 20px;
+  padding-left: 20px;
+  height: 100px;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.home .project-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home .project-list a {
+  text-decoration: none;
+}
+.home .project-list a:hover {
+  text-decoration: underline;
+}
+.home .home-content {
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: neuzeit-grotesk, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.home h1 {
+  font-size: 50px;
+}
+.home h2 {
+  font-size: 40px;
+}
