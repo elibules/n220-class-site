@@ -4,6 +4,7 @@ function setup() {
     
     for(var x = 0; x < 4; x++) { 
             for(var y = x; y < 4; y++){
+                stroke(255, 255, 255)
               fill(255, 0, 0);
             rect(40 * x, y * 40, 40, 40); 
         }
