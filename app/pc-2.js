@@ -1,3 +1,5 @@
+// Click and hold the mouse to start making some art
+
 var circleSize = 5
 
 function setup() {
