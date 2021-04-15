@@ -17,6 +17,6 @@ function displayAnswer(event) {
     } else if (answer == "A minor") {
         answer2.innerHTML = answer;
     } else if (answer == "Margaret Weis and Tracy Hickman") {
-        answer3.innerHTML = answer
+        answer3.innerHTML = answer;
     }
 }
