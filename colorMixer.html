@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Mixer</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav style="margin-bottom: 50px;">
+        <a href="index.html" ><img src="images/webDev_logo.png" alt="Eli Bules Logo" class="logo"></a>
+    </nav>
+    <div class="color-box" id="colorBox"></div>
+    <div>Current Color: <span id="currentColor">rgb(0,0,0)</span></div>
+    <div class="change-color">
+        <div class="change-color-picker">
+            <h1>Red:</h1>
+            <button id="btn1" data-value="1">+1</button>
+            <button id="btn2" data-value="5">+5</button>
+            <button id="btn3" data-value="10">+10</button>
+        </div>
+        <div class="change-color-picker">
+            <h1>Green:</h1>
+            <button id="btn4" data-value="1">+1</button>
+            <button id="btn5" data-value="5">+5</button>
+            <button id="btn6" data-value="10">+10</button>
+        </div>
+        <div class="change-color-picker">
+            <h1>Blue:</h1>
+            <button id="btn7" data-value="1">+1</button>
+            <button id="btn8" data-value="5">+5</button>
+            <button id="btn9" data-value="10">+10</button>
+        </div>
+    </div>
+    <script src="app/colorMixer.js"></script>
+</body>
+</html>
